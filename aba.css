@@ -1,0 +1,48 @@
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 65px;
+    margin: 0px;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  h1 a {
+    text-decoration: none; /* Remove underline from the link */
+    color: inherit; /* Inherit color from h1 */
+  }
+  
+  h1 a:hover {
+    text-decoration: underline; /* Optional: Add underline on hover */
+  }
+
+  #heading {
+    position: fixed;
+    width: 100%;
+    padding-left: 40px;
+    padding-top: 20px;
+  }
+
+  body {
+    background-color: white;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .border {
+    background: linear-gradient(90deg, gray, 90%, black);
+    height: 2px;
+    width: 80vw;
+    margin-top: 4px;
+  }
+
+
+
+.video-player {
+    max-width: 750px;
+    position: relative;
+    overflow: hidden;
+}
+
+.video {
+    width: 100%;
+}
